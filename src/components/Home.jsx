@@ -65,19 +65,19 @@ const MyCarousel = () => (
     showThumbs={false}
     showArrows={false} >
         <Box w={'full'} h={'100vh'}>
-            <Image src={Img1}/>
+            <Image src={Img1} h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading bgColor={'blackAlpha.500'} color={'white'} {...headingOptions}>We Are Reality</Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={Img2}/>
+            <Image src={Img2} h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>Gaming is Life</Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={Img3}/>
+            <Image src={Img3} h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>Gaming Console</Heading>
         </Box>
         <Box w={'full'} h={'100vh'}>
-            <Image src={Img4}/>
+            <Image src={Img4} h={'full'} w={'full'} objectFit={'cover'}/>
             <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>Moon Shine</Heading>
         </Box>
     </Carousel>
